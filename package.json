@@ -1,0 +1,20 @@
+{
+  "name": "cycling-analyzer",
+  "version": "1.0.0",
+  "description": "Tool to analyze cycling data",
+  "main": "src/index.js",
+  "repository": "https://github.com/mutaimwiti/meal-user-cleaner.git",
+  "author": "Mutai Mwiti <mutaimwiti40@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf out/sorted_speeds.json out/stats.json",
+    "watch": "nodemon --ignore out/ src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "loggery": "^1.0.2",
+    "nodemon": "^1.19.2",
+    "sqlite3": "^4.1.0"
+  }
+}
